@@ -155,7 +155,8 @@ body {
     touch-action: pan-x pinch-zoom; }
 
 a {
-  text-decoration: none; }
+  text-decoration: none;
+  color: inherit; }
   a:visited {
     color: inherit; }
 

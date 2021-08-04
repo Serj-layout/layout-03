@@ -154,6 +154,12 @@ body {
     overflow-y: hidden;
     touch-action: pan-x pinch-zoom; }
 
+a {
+  text-decoration: none;
+  color: inherit; }
+  a:visited {
+    color: inherit; }
+
 .collection {
   display: grid;
   max-width: 1868px;
