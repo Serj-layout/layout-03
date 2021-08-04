@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Laying - 03</title>   
+    <link rel="stylesheet" href="articles.css">
+</head>
+<body>
+    <div class="page">        
+        <nav class="menu">
+            <div class="menu-col menu-col_01">                    
+                <a href="about.html" class="menu__link">About</a>
+                <a href="#" class="menu__link menu__link_active">Articles</a>                    
+            </div>
+            <a href="index.html" class="menu__logo-link"><img src="img/logo.svg" alt="logo" class="menu__logo"></a>               
+            <div class="menu-col menu-col_02">
+                <a href="blog.html" class="menu__link">Blog</a>
+                <a href="contact.html" class="menu__link">Contact</a>
+                <img src="img/menu-icon.svg" alt="menu icon" class="menu-icon">
+            </div>               
+            <div class="menu-drawer">
+                <img src="img/close.svg" alt="close button" class="menu-drawer__close">
+                <a href="index.html" class="menu-drawer__logo-link"><img src="img/logo.svg" alt="logo" class="menu-drawer__logo"></a>
+                <article class="menu-drawer__item">
+                    <h3 class="menu-drawer__item-title">Furniture for life</h3>
+                    <hr class="menu-drawer__divider">
+                    <p class="menu-drawer__item-text">Sustainable hot chicken skateboard, dreamcatcher meggings actually squid. Slow-carb everyday carry +1 art party microdosing, put a bird on it brooklyn</p>
+                    <img src="img/f-01.png" alt="furniture-01" class="menu-drawer__item-img">
+                </article>
+            </div>        
+        </nav>           
+        <main>  
+            <div class="breadcrumbs articles-page__breadcrumbs">
+                <a href="index.html" class="breadcrumbs__link">Home</a>/ Articles               
+            </div>
+            <div class="blog">
+                <div class="blog-content">
+                    <article class="blog-post">
+                        <img src="img/post-img-01.jpg" alt="blog post img" class="blog-post__img">                        
+                        <span class="blog-post__info">August 15, 2020 | by Ann Summers | Bedroom Furniture</span>
+                        <h3 class="blog-post__title">Red selfies edison bulb four dollar toast design humblebrag for the furniture</h3>
+                        <p class="blog-post__text">Everyday carry actually neutra authentic kogi shabby chic migas small batch craft beer. Literally williamsburg tote bag farm-to-table mustache ugh deep v irony. Af man bun copper mug iPhone enamel pin pug selvage hammock palo santo godard thundercats coloring book yuccie woke. Ugh pok pok taxidermy pabst enamel pin edison bulb farm-to-table</p>
+                        <p class="blog-post__text">Yuccie portland kickstarter, readymade ramps humblebrag ennui banjo mumblecore vaporware pickled cray stumptown 8-bit mlkshk. Tumeric tousled austin, kinfolk scenester authentic craft beer truffaut irony intelligentsia YOLO lomo bushwick coloring book. Semiotics man bun venmo viral cliche. Tousled yr williamsburg austin edison bulb cloud bread vegan street art. Locavore food truck trust fund palo santo asymmetrical, franzen deep v marfa kogi whatever swag pop-up seitan.</p>
+                        <blockquote class="post-quote">
+                            <p class="post-quote__text">“Simplicity is not the goal. It is the by-product of a good idea and modest expectations” </p>
+                            <hr class="post-quote__divider">
+                            <span class="post-quote__author">Paul Rand</span>
+                        </blockquote>
+                        <p class="blog-post__text">Af man bun copper mug iPhone enamel pin pug selvage hammock palo santo godard thundercats coloring book yuccie woke. Ugh pok pok taxidermy pabst enamel pin edison bulb farm-to-table.</p>
+                        <p class="blog-post__text">Yuccie portland kickstarter, readymade ramps humblebrag ennui banjo mumblecore vaporware pickled cray stumptown 8-bit mlkshk. Tumeric tousled austin, kinfolk scenester authentic craft beer truffaut irony intelligentsia YOLO lomo bushwick coloring book. Semiotics man bun venmo viral cliche. Tousled yr williamsburg austin edison bulb cloud bread vegan street art. Locavore food truck trust fund palo santo asymmetrical, franzen deep v marfa kogi whatever swag pop-up seitan.</p>
+                        <div class="post-tags">
+                            <h4 class="post-tags__title">Tags</h4>
+                            <a href="#" class="post__tag">Bedroom futniture</a>
+                            <a href="#" class="post__tag">Office furniture</a>
+                            <a href="#" class="post__tag">Dining room furniture</a>
+                            <a href="#" class="post__tag">Chair</a>
+                        </div>
+                    </article>                   
+                    <div class="posts-nav">
+                        <div class="post-preview">
+                            <a href="#" class="post-preview__link post-preview__link-prev">
+                                <img src="img/prev-article-icon.svg" alt="prev article icon" class="post-preview__icon">
+                            </a>
+                            <span class="post-preview__title">Cred selfies edison bulb four dollar toast humblebrag</span>
+                        </div>
+                        <div class="post-preview">                            
+                            <span class="post-preview__title">Semiotics fixie four dollar toast, next level</span>
+                            <a href="#" class="post-preview__link post-preview__link-next">
+                                <img src="img/next-article-icon.svg" alt="next article icon" class="post-preview__icon">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="post-comments">
+                        <h4 class="post-comments__title">Comments:</h4>
+                        <div class="post-comment">
+                            <img src="img/comment-avatar.png" alt="avatar" class="comment-author__avatar">
+                            <div class="comment-content">
+                                <div class="comment-info">                                
+                                    <span class="comment-author__name">Lea Brown</span>
+                                    <span class="comment__date">August 12, 2020</span>                                            
+                                </div>
+                                <p class="comment__text">Tumeric tousled austin, kinfolk scenester authentic craft beer truffaut irony intelligentsia YOLO lomo bushwick coloring book. Semiotics man bun venmo viral cliche</p>
+                            </div>
+                            <a href="#" class="comment__reply">Reply</a>                            
+                        </div>
+                        <h5 class="comment-add__title">Post a Comment</h5>
+                        <form action="#" class="form">
+                            <textarea class="form__textarea" placeholder="Your comment"></textarea>
+                            <input type="text" class="form__input" placeholder="Your name">
+                            <input type="email" class="form__input form__input_last" placeholder="Your e-mail">
+                            <div class="form-checkbox-container">
+                                <input type="checkbox" class="form__checkbox">
+                                <span class="form__checkbox-label">Remember me</span>
+                            </div>                            
+                            <button class="form__submit" type="submit">Submit</button>
+                        </form>
+                    </div>
+                </div>
+                <aside class="blog-info">
+                    <form action="#" class="blog-search-form">
+                        <input type="text" class="blog__search" placeholder="Search">
+                        <button class="blog__search-btn" type="submit">
+                            <img src="img/search-icon.svg" alt="search icon" class="blog__search-icon">
+                        </button>                        
+                    </form>
+                    <div class="blog-data blog__categories">
+                        <h4 class="blog-data__title">Categories</h4>
+                        <div class="blog__categories-list">
+                            <a href="#" class="blog__category">Dining room (1)</a>
+                            <a href="#" class="blog__category">Office furniture (12)</a>
+                            <a href="#" class="blog__category">Simple interiror design (2)</a>
+                            <a href="#" class="blog__category">Design (4)</a>
+                            <a href="#" class="blog__category">Bedroom Furniture (1)</a>
+                        </div>                        
+                    </div>
+                    <div class="blog-data blog__recent-posts">
+                        <h4 class="blog-data__title blog__recent-posts-title">Recent Posts</h4>                        
+                        <div class="blog-recent-post">
+                            <a href="#" class="blog-recent-post__link">Cred selfies edison bulb four dollar toast humblebrag</a>
+                            <span class="blog-recent-post__info">August 10, 2020 | by Ann Summers</span>
+                        </div>
+                        <div class="blog-recent-post">
+                            <a href="#" class="blog-recent-post__link">Semiotics fixie four dollar toast, next level woke scenester direct trade photo booth</a>
+                            <span class="blog-recent-post__info">September 30 ,2020 | by Ann Summers</span>
+                        </div>
+                        <div class="blog-recent-post">
+                            <a href="#" class="blog-recent-post__link">Cred selfies edison bulb four dollar toast humblebrag</a>
+                            <span class="blog-recent-post__info">May 2, 2020 | by Ann Summers</span>
+                        </div>
+                    </div>
+                    <div class="blog-data blog-tags">
+                        <h4 class="blog-data__title">Tags</h4>                        
+                        <div class="blog-tags-container">
+                            <a href="#" class="blog__tag">Dining room futniture</a>
+                            <a href="#" class="blog__tag">Chair</a>
+                            <a href="#" class="blog__tag">Table</a>                       
+                            <a href="#" class="blog__tag">Bedroom</a>
+                            <a href="#" class="blog__tag">Office Furniture</a> 
+                        </div>                                               
+                    </div>
+                    <div class="blog-sm">
+                        <a href="#" class="blog-sm__link">
+                            <img src="img/fa-facebook-darker.svg" alt="facebook icon" class="blog-sm__icon">
+                        </a>
+                        <a href="#" class="blog-sm__link">
+                            <img src="img/fa-instagram-darker.svg" alt="instagram icon" class="blog-sm__icon">
+                        </a>
+                        <a href="#" class="blog-sm__link">
+                            <img src="img/fa-pinterest-darker.svg" alt="pinterest icon" class="blog-sm__icon">
+                        </a>
+                        <a href="#" class="blog-sm__link">
+                            <img src="img/fa-whatsapp-darker.svg" alt="whatsapp icon" class="blog-sm__icon">
+                        </a>
+                        <a href="#" class="blog-sm__link">
+                            <img src="img/fa-twitter.svg" alt="twitter icon" class="blog-sm__icon">
+                        </a>
+                    </div>                    
+                </aside>
+            </div>                                                      
+        </main>
+        <footer class="footer">
+            <div class="footer-top">
+                <div class="footer-top-container">
+                    <div class="footer-contacts">
+                        <h4 class="footer-contacts__title">Contact Us</h4>
+                        <p class="footer-contacts__text">Keffiyeh poutine etsy, paleo cray put a bird on it microdosing schlitz you probably occupy
+                        </p>
+                        <div class="footer-contacts-email">
+                            <img src="img/fa-envelope.svg" alt="envelope" class="footer-contacts-email__icon">
+                            <a href="mailto:ouremailaddress@email.com" class="footer-contacts-email__link">ouremailaddress@email.com</a>
+                        </div>
+                        <form class="footer-form">
+                            <input type="email" class="footer-form__email-field" name="email" placeholder="Subscribe by email">
+                            <button type="submit" class="footer-form__btn">Send</button>
+                        </form>
+                    </div>
+                    <div class="footer-col">
+                        <div class="footer-social-media">                 
+                            <a href="#" class="footer__link">
+                                <img src="img/fa-facebook.svg" alt="facebook-icon" class="footer__sm-icon">Facebook                        
+                            </a>                               
+                            <a href="#" class="footer__link">
+                                <img src="img/fa-instagram.svg" alt="instagram-icon" class="footer__sm-icon">Instagram                        
+                            </a>                               
+                            <a href="#" class="footer__link">
+                                <img src="img/fa-pinterest.svg" alt="pinterest-icon" class="footer__sm-icon">Pinterest                        
+                            </a>                                
+                            <a href="#" class="footer__link">
+                                <img src="img/fa-whatsapp.svg" alt="whatsapp-icon" class="footer__sm-icon">WhatsApp                        
+                            </a>                                
+                            <a href="#" class="footer__link">
+                                <img src="img/fa-youtube.svg" alt="youtube-icon" class="footer__sm-icon">Youtube                        
+                            </a>                                 
+                        </div>
+                        <div class="footer-nav">
+                            <a href="#" class="footer__link">Delivery</a>
+                            <a href="#" class="footer__link">FAQ</a>
+                            <a href="#" class="footer__link">Help</a>
+                            <a href="#" class="footer__link">More About Us</a>
+                        </div>
+                    </div>                   
+                </div>
+            </div>            
+            <div class="footer-bottom">
+                674 Gonzales Drive. Washington, PA 15301
+            </div>
+        </footer>
+        <div class="modal"></div>
+        <div class="overlay"></div>       
+    </div>   
+    <script src="js/articlesPage.js" type="module"></script>
+</body>
+</html>

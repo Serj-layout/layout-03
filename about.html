@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Laying - 03</title>   
+    <link rel="stylesheet" href="about.css">
+</head>
+<body>
+    <div class="page">        
+        <nav class="menu">
+            <div class="menu-col menu-col_01">                    
+                <a href="about.html" class="menu__link menu__link_active">About</a>
+                <a href="articles.html" class="menu__link">Articles</a>                    
+            </div>
+            <a href="index.html" class="menu__logo-link"><img src="img/logo.svg" alt="logo" class="menu__logo"></a>               
+            <div class="menu-col menu-col_02">
+                <a href="blog.html" class="menu__link">Blog</a>
+                <a href="contact.html" class="menu__link">Contact</a>
+                <img src="img/menu-icon.svg" alt="menu icon" class="menu-icon">
+            </div>               
+            <div class="menu-drawer">
+                <img src="img/close.svg" alt="close button" class="menu-drawer__close">
+                <a href="index.html" class="menu-drawer__logo-link"><img src="img/logo.svg" alt="logo" class="menu-drawer__logo"></a>
+                <article class="menu-drawer__item">
+                    <h3 class="menu-drawer__item-title">Furniture for life</h3>
+                    <hr class="menu-drawer__divider">
+                    <p class="menu-drawer__item-text">Sustainable hot chicken skateboard, dreamcatcher meggings actually squid. Slow-carb everyday carry +1 art party microdosing, put a bird on it brooklyn</p>
+                    <img src="img/f-01.png" alt="furniture-01" class="menu-drawer__item-img">
+                </article>
+            </div>        
+        </nav>           
+        <main>  
+            <section class="about">
+                <div class="breadcrumbs about__breadcrumbs">
+                    <a href="index.html" class="breadcrumbs__link">Home</a>/ About
+                </div>
+                <div class="about-header">                    
+                    <div class="about-overlay"></div>                    
+                    <h1 class="about-title">About Us</h1>
+                </div>
+                <div class="about-intro">
+                    <h2 class="about-intro__title">Balance in the simple through an informed marriage of design, functional and craft</h2>
+                    <hr class="about__divider">
+                    <div class="about-text">
+                        <p class="about-text__item">Vexillologist vape microdosing freegan pork belly deep v direct trade cray single-origin coffee street art. Viral shaman mustache master cleanse, pour-over affogato poutine copper mug marfa fanny pack normcore. Lo-fi pop-up banjo portland, echo park hammock chillwave literally post-ironic ramps subway tile kitsch. Shaman tumblr fixie echo park street art. Enamel pin vaporware wayfarers, organic succulents hella sustainable cardigan.
+                        </p>
+                        <p class="about-text__item">Sustainable hot chicken skateboard, dreamcatcher meggings actually squid. Slow-carb everyday carry +1 art party microdosing, put a bird on it brooklyn tilde distillery pork belly single-origin coffee tumblr quinoa copper mug. Affogato cold-pressed unicorn, viral intelligentsia leggings raw denim kombucha tote bag messenger bag chambray vape coloring book scenester. Activated charcoal wayfarers church-key tote bag synth brunch. Retro cornhole
+                        </p>
+                    </div>
+                </div>
+                <div class="about-video">                    
+                    <div class="btn-wrapper">
+                        <img src="img/btn-play.png" alt="play video button" class="btn__play">
+                    </div>                    
+                </div>
+            </section>
+            <section class="details">
+                <div class="details-container">
+                    <img src="img/details__img.png" alt="chair" class="details__img">
+                    <div class="details-info">
+                        <div class="details-description">
+                            <h2 class="details__title">Our Inspiration in details</h2>
+                            <hr class="details__divider">
+                            <p class="details__text">Semiotics fixie four dollar toast, next level woke scenester direct trade photo booth helvetica jean shorts. Fanny pack church-key cornhole, banh mi thundercats gochujang keytar.</p>
+                        </div>                    
+                        <div class="details-data">
+                            <div class="details-item">
+                                <div class="details-item-row">
+                                    <span class="details-item__notation">Design and technical drawings</span>
+                                    <span class="details-item__percent">80%</span>
+                                </div>
+                                <progress class="details-item__progress" max="100" value="80"></progress>                            
+                            </div>
+                            <div class="details-item">
+                                <div class="details-item-row">
+                                    <span class="details-item__notation">Measurments</span>
+                                    <span class="details-item__percent">70%</span>
+                                </div>
+                                <progress class="details-item__progress" max="100" value="70"></progress>                            
+                            </div>
+                            <div class="details-item">
+                                <div class="details-item-row">
+                                    <span class="details-item__notation">Furniture functionality analysis</span>
+                                    <span class="details-item__percent">75%</span>
+                                </div>
+                                <progress class="details-item__progress" max="100" value="75"></progress>                            
+                            </div>
+                            <div class="details-item">
+                                <div class="details-item-row">
+                                    <span class="details-item__notation">Interior visualization</span>
+                                    <span class="details-item__percent">40%</span>
+                                </div>
+                                <progress class="details-item__progress" max="100" value="40"></progress>                            
+                            </div>
+                        </div>
+                    </div>
+                </div>               
+            </section>                               
+        </main>
+        <footer class="footer">
+            <div class="footer-top">
+                <div class="footer-top-container">
+                    <div class="footer-contacts">
+                        <h4 class="footer-contacts__title">Contact Us</h4>
+                        <p class="footer-contacts__text">Keffiyeh poutine etsy, paleo cray put a bird on it microdosing schlitz you probably occupy
+                        </p>
+                        <div class="contact-email">
+                            <img src="img/fa-envelope.svg" alt="envelope" class="contact-email__icon">
+                            <a href="mailto:ouremailaddress@email.com" class="contact-email__link">ouremailaddress@email.com</a>
+                        </div>
+                        <form class="footer-form">
+                            <input type="email" class="footer-form__email-field" name="email" placeholder="Subscribe by email">
+                            <button type="submit" class="footer-form__btn">Send</button>
+                        </form>
+                    </div>
+                    <div class="footer-col">
+                        <div class="footer-social-media">                 
+                            <a href="#" class="footer__link">
+                                <img src="img/fa-facebook.svg" alt="facebook-icon" class="footer__sm-icon">Facebook                        
+                            </a>                               
+                            <a href="#" class="footer__link">
+                                <img src="img/fa-instagram.svg" alt="instagram-icon" class="footer__sm-icon">Instagram                        
+                            </a>                               
+                            <a href="#" class="footer__link">
+                                <img src="img/fa-pinterest.svg" alt="pinterest-icon" class="footer__sm-icon">Pinterest                        
+                            </a>                                
+                            <a href="#" class="footer__link">
+                                <img src="img/fa-whatsapp.svg" alt="whatsapp-icon" class="footer__sm-icon">WhatsApp                        
+                            </a>                                
+                            <a href="#" class="footer__link">
+                                <img src="img/fa-youtube.svg" alt="youtube-icon" class="footer__sm-icon">Youtube                        
+                            </a>                                 
+                        </div>
+                        <div class="footer-nav">
+                            <a href="#" class="footer__link">Delivery</a>
+                            <a href="#" class="footer__link">FAQ</a>
+                            <a href="#" class="footer__link">Help</a>
+                            <a href="#" class="footer__link">More About Us</a>
+                        </div>
+                    </div>                   
+                </div>
+            </div>            
+            <div class="footer-bottom">
+                674 Gonzales Drive. Washington, PA 15301
+            </div>
+        </footer>        
+        <div class="modal"></div>
+        <div class="overlay"></div>
+    </div>   
+    <script src="js/aboutPage.js" type="module"></script>
+</body>
+</html>
