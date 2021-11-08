@@ -1,6 +1,11 @@
-### Demo: https://serj-layout.github.io/layout-03/
+### Demo
+#### https://serj-layout.github.io/layout-03/index.html
+#### https://serj-layout.github.io/layout-03/about.html
+#### https://serj-layout.github.io/layout-03/articles.html
+#### https://serj-layout.github.io/layout-03/blog.html
+#### https://serj-layout.github.io/layout-03/contact.html
 
-### Интерактив
+### Интерактив на чистом JS
 #### На всех страницах
 Выдвижное дополнительное меню
 #### index.html
